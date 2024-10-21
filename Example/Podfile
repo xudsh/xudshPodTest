@@ -4,7 +4,6 @@ platform :ios, '10.0'
 
 target 'xudshPodTest_Example' do
   pod 'xudshPodTest', :path => '../'
-
   target 'xudshPodTest_Tests' do
     inherit! :search_paths
 

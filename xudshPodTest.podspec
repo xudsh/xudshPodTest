@@ -25,12 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dongshengxu' => 'dongshengxu@tencent.com' }
-  s.source           = { :git => 'https://github.com/dongshengxu/xudshPodTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xudsh/HHTestKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'xudshPodTest/Classes/**/*'
+  s.ios.vendored_libraries = "xudshPodTest/lib/libGDTMobTquicSDK.a"
+  s.ios.vendored_framework = "xudshPodTest/lib/*.xcframework"
   
   # s.resource_bundles = {
   #   'xudshPodTest' => ['xudshPodTest/Assets/*.png']
