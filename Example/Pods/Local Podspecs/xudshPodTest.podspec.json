@@ -1,0 +1,54 @@
+{
+  "name": "xudshPodTest",
+  "version": "1.0.0",
+  "summary": "A short description of xudshPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xudsh/xudshPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xudsh": "wxudongsheng@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xudsh/xudshPodTest.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "ios": {
+    "vendored_frameworks": "xudshPodTest/**/GDTMobSDK.xcframework"
+  },
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "xudshPodTest/libs/GDTMobSDK.xcframework/ios-arm64/GDTMobSDK.framework/Headers",
+    "ENABLE_USER_SCRIPT_SANDBOXING": "NO"
+  },
+  "user_target_xcconfig": {
+    "GENERATE_INFOPLIST_FILE": "YES"
+  },
+  "pod_target_xcconfig": {
+    "GENERATE_INFOPLIST_FILE": "YES"
+  },
+  "libraries": [
+    "z",
+    "xml2",
+    "sqlite3",
+    "c++",
+    "c++abi"
+  ],
+  "requires_arc": true,
+  "frameworks": [
+    "StoreKit",
+    "Security",
+    "CoreTelephony",
+    "AdSupport",
+    "CoreLocation",
+    "QuartzCore",
+    "SystemConfiguration",
+    "AVFoundation",
+    "JavaScriptCore"
+  ],
+  "weak_frameworks": "WebKit"
+}

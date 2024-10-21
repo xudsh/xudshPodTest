@@ -1,0 +1,16 @@
+PODS:
+  - xudshPodTest (1.0.0)
+
+DEPENDENCIES:
+  - xudshPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  xudshPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  xudshPodTest: cf9a93ba6a482b9122b6513588af7232fe7c5b6a
+
+PODFILE CHECKSUM: f9d0ba979e8204c62e2fe2837a134317d8997020
+
+COCOAPODS: 1.10.2

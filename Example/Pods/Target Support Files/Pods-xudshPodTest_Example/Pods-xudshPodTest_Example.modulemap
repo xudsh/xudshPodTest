@@ -1,0 +1,6 @@
+framework module Pods_xudshPodTest_Example {
+  umbrella header "Pods-xudshPodTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
